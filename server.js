@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 // Hardcoded target user
-const tiktokUsername = "jdaredevil2";
+const tiktokUsername = "renz.rainier";
 
 let tiktokConnection = new TikTokLiveConnection(tiktokUsername, {
     processInitialData: false
